@@ -1,11 +1,49 @@
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.menu-mobile img {
+  width: 30px;
+}
+.menu-mobile {
+  float: right;
+}
+header nav {
+  display: none;
+}
+
 header img {
   width: 100px;
 }
-header nav {
-  float: right;
+
+#banner img, #novidades img {
+  width: 250px;
+}
+#banner, #novidades {
+  background-color: #3CD1DB;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  header nav {
+    display: block;
+    float: right;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  #banner img, #novidades img {
+    width: 450px;
+  }
+  #banner, #novidades {
+    background-color: #3CD1DB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+  }  
 }
 header nav ul {
   list-style: none;
@@ -26,43 +64,49 @@ a:hover {
   background-color: cyan;
   color: crimson;
 }
-#banner {
-  background-color: #3CD1DB;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 50px;
-}
-#banner img {
-  width: 450px;
-}
 
-#banner h2, #banner p {
+#banner h2, #banner p, #novidades h2, #novidades p {
   color: white;
 }
-#banner div {
-  width: 500px;
+#banner div, #novidades div {
+  width: 40vw;
   margin-left: 20px;
 }
-#destaque h2 {
+
+#destaque h2, #destaque-saiba-mais {
   text-align: center;
 }
-.card{
-  width: 250px;
+.card {
+  width: 200px;
   border: 1px solid silver;
   border-radius: 5px;
   margin: 10px;
 }
 .card img {
-  width: 250px;
-  border-radius: 5px 5px 0px 0px;
+  width: 200px;
+  border-radius: 4px 4px 0px 0px;
 }
 .card div {
   padding: 5px;
 }
-.card h3 {
+.card div h3 {
   text-align: center;
 }
-.card group {
-  
+.card-grupo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.imagem-grupo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.imagem-galeria {
+  width: 200px;
+  margin: 20px;
+}
+
+.imagem-galeria img {
+  width: 100%;
 }
