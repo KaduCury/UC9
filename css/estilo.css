@@ -1,0 +1,68 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header img {
+  width: 100px;
+}
+header nav {
+  float: right;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  background-color: cyan;
+  color: crimson;
+}
+#banner {
+  background-color: #3CD1DB;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+#banner img {
+  width: 450px;
+}
+
+#banner h2, #banner p {
+  color: white;
+}
+#banner div {
+  width: 500px;
+  margin-left: 20px;
+}
+#destaque h2 {
+  text-align: center;
+}
+.card{
+  width: 250px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin: 10px;
+}
+.card img {
+  width: 250px;
+  border-radius: 5px 5px 0px 0px;
+}
+.card div {
+  padding: 5px;
+}
+.card h3 {
+  text-align: center;
+}
+.card group {
+  
+}
