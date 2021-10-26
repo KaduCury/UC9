@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"> 
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="viewport" content="maximum-scale=2">
+    <title>GameMania</title>
+    <link rel="stylesheet" href="CSSGameMania.css">
+    <!--Como linkar o Bootstrap??-->
+</head>
+
+<body>
+    <header>
+        <!-- Como por o Fundo de Estrelas??-->
+        <img src="" alt="Símbolo GameMania">
+        <img src="" alt="Logotipo GameMania">
+        <img src="" alt="Símbolo GameMania">
+        <nav>
+            <!-- Como travar o Menu qdo "escrolar" pra baixo??-->
+            <img src="" alt="Botão Menu">
+            <a href="#">Barra de Pesquisa</a>
+            <img src="" alt="Botão Pesuisar">
+            <img src="" alt="Botão Computadores">
+            <a href="#">Computadores, Notebooks e Acessórios</a>
+            <img src="" alt="Botão Smartphones">
+            <a href="#">Smartphones e Acessórios</a>
+            <img src="" alt="Botão Playstations">
+            <a href="#">Playstations, Jogos e Acessórios</a>
+            <img src="" alt="Botão Xboxs">
+            <a href="#">Xboxs, Jogos e Acessórios</a>
+            <img src="" alt="Botão Nintendos">
+            <a href="#">Nintendos, Jogos e Acessórios</a>
+            <img src="" alt="Botão Outros">
+            <a href="#">Outros Consoles, Jogos e Acessórios</a>
+            <img src="" alt="Botão LOG IN">
+            <a href="#">LOG IN</a>
+            <img src="" alt="Botão COMPRAR">
+            <a href="#">COMPRAR</a>
+        </nav>
+    </header>
+
+    <!--Como inserir Borda com Estrelas??-->
+    <section id="Promocoes">
+        <img src="" alt="Hot Deal Promocoes">
+        <!--Fazer Carrossel dos Cards de Promoção-->
+        <!--Fazer Cards de Promoção-->
+    <div class="Card-Group">
+        <img src="" alt="Card Promoção 1">
+         
+    </div>
+    </section>
+
+    <section id="Noticias">
+        <img src="" alt="Breaking News">
+        <!--Fazer Carrossel dos Cards de Notícias-->
+        <!--Fazer Cards de Notícias-->
+    <div class="Card-Group">
+        <img src="" alt="Card News 1">
+
+    </div>
+    </section>
+
+    <section id="Web Game do Mes">
+        <!--Como Inserir Game??-->
+    </section>
+
+    <section id="Funny Animation">
+        <!--Inserir .gif-->
+        <img src="" alt="Crazy Gamer Spinning">
+    </section>
+
+    <footer>
+        <section id="Rodape">
+            <p>Telefone: (XX)XXXXX-XXXX
+            Endereço: Rua X, nºXXX, XXXX/XX</p>
+            <img src="" alt="Abrir Localização no Mapas">
+            <img src="" alt="Whatsapp Link">
+            <img src="" alt="Facebook Link">
+            <img src="" alt="Instagram Link">
+            <img src="" alt="Email Link">
+        </section>
+    </footer>
+
+</body>
+</html>
