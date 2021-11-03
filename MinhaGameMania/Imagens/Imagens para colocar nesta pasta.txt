@@ -1,0 +1,32 @@
+Fundo de Estrelas (Como por na página?)
+Borda de Estrelas (Como por na página?)
+
+Botão Menu? (Animação Slide)
+
+Barra de Pesquisa (JS BackEnd)
+
+Subir Imagens para o GitHub
+
+Alinhar os conteúdos do PCNovo com o Git
+
+
+SENAI:
+   UC9:
+     SP2:
+	V 0.Responder a pergunta sobre HTML5 e comentar no fórum de discussão
+	
+	  1.Subir o HTML5 com ao menos 4 páginas mais o Home (Atv OnL 1)
+			
+	  2.Aplicar o CSS nas páginas do 1 (Enc Pres 1)
+		
+	  3.Idem 2 (Atv OnL 2)
+
+	  4.Aplicar o Bootstrap nas páginas (Enc Pres 2)
+
+	  5.Implementar funcionalidades com o JS nas páginas (Atv OnL 3)
+
+	  6.Idem 5 (Enc Pres 3)
+
+	  7.Aplicar o JQuery nas funcionalidades de JS das páginas (Enc Pres 4)
+
+	  8.Elaborar uma apresentação no PowerPoint (Enc Pres 5)
