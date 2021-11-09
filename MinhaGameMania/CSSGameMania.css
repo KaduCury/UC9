@@ -98,3 +98,7 @@ footer {
     width: 30%;
     height: 40%;
 }
+
+#Rodape p {
+    float: left;
+}
