@@ -24,7 +24,7 @@ footer {
 .carousel-item {
     text-align: center;
     width: 40%;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .Menu {
@@ -36,7 +36,7 @@ footer {
 
 .Menu div {
     display: grid;
-    grid-template-columns: 70px 100px;
+    grid-template-columns: 70px 90px;
     color: white;
 }
 
@@ -52,11 +52,17 @@ footer {
 }
 
 .funnyGif {
-    box-align: center; 
+    box-align: center;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px; 
 }
 
 .carousel-caption {
     background-color: rgba(192, 192, 192, 0.5);
+    color: blue;
+    font-weight: bold;
+    font-size: 10px;
 }
 
 .Menu div a img {
@@ -68,11 +74,27 @@ footer {
 }
 
 #WebGamedoMes div {
-    width: 50%;
-    height: 500px;
+    width: 40%;
+    height: 650px;
     margin: 0 auto;
 }
 #WebGamedoMes iframe {
     width: 100%;
     height: 100%;
+}
+
+#logoPromocoes {
+    margin-bottom: -3%;
+    margin-top: 1%;
+}
+
+#logoNoticias {
+    margin-bottom: -1%;
+    margin-top: 5%;
+}
+
+#logoWGM {
+    margin-bottom: -2%;
+    width: 30%;
+    height: 40%;
 }
