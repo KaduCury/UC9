@@ -34,11 +34,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.Menu div {
-    display: grid;
-    grid-template-columns: 70px 90px;
-    color: white;
-}
 
 .Menu .linkMenu {
     text-decoration: none;
@@ -46,7 +41,9 @@ footer {
     font-weight: bold;
     font-size: 12px;
 }
-
+.Menu a span {
+    display: none;
+}
 .imgFooter {
     float: right;
 }
@@ -65,7 +62,7 @@ footer {
     font-size: 10px;
 }
 
-.Menu div a img {
+.Menu div a img:not(#barraPesquisa) {
     width: 60px;
 }
 
@@ -73,7 +70,7 @@ footer {
     text-align: center;
 }
 
-#WebGamedoMes div {
+#WebGamedoMes div:not(#logoWGM) {
     width: 40%;
     height: 650px;
     margin: 0 auto;
@@ -84,21 +81,73 @@ footer {
 }
 
 #logoPromocoes {
-    margin-bottom: -3%;
+    margin-bottom: -1%;
     margin-top: 1%;
+    z-index: 99;
+    position: relative;
+    top: 20px;
+}
+
+#logoPromocoes a img {
+    width: 8vw;
 }
 
 #logoNoticias {
     margin-bottom: -1%;
     margin-top: 5%;
+    z-index: 99;
+    position: relative;
+    top: 20px;
+}
+
+#logoNoticias a img {
+    width: 13vw;
 }
 
 #logoWGM {
-    margin-bottom: -2%;
-    width: 30%;
-    height: 40%;
+    margin-bottom: -1%;
+    z-index: 99;
+}
+
+#logoWGM img {
+    width: 25vw;
 }
 
 #Rodape p {
     float: left;
+}
+
+.Menu {
+    background: rgba(255, 54, 54, 0.92);
+    border: 2px solid rgba(204, 204, 204, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+    padding: 5px;
+}
+
+.col-7, .col-2, .col-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (min-width: 1920px) {
+    
+    .Menu div {
+        color: white;
+    }    
+    
+    .Menu a span {
+        display: inline;
+    }
+    
+    .col-7 div, .col-2 div, .col-3 div:not(#abc) {
+        display: grid;
+        grid-template-columns: 70px 98px;
+    }
+    
+    #barraPesquisa {
+        width: 100%;
+        height: 100%;
+    }
 }

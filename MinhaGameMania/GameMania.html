@@ -17,39 +17,47 @@
 <body>
   <header>
     <div class="row">
-      <div class="col-3"><img src="Imagens/badBowser Esq.png" class="badBowser" alt="Símbolo GameMania"></div>
-      <div class="col-6"><img class="bigLogo" src="Imagens/bigLogo.png" alt="Logotipo GameMania"></div>
-      <div class="col-3"><img src="Imagens/badBowser Dir.png" class="badBowser" alt="Símbolo GameMania"></div>
+      <div class="col-4"><img src="Imagens/badBowser Esq.png" class="badBowser" alt="Símbolo GameMania"></div>
+      <div class="col-4"><img class="bigLogo" src="Imagens/bigLogo.png" alt="Logotipo GameMania"></div>
+      <div class="col-4"><img src="Imagens/badBowser Dir.png" class="badBowser" alt="Símbolo GameMania"></div>
     </div>
     <div class="row">
       <nav class="Menu">
         <!-- Como inserir o fundo vermelho no meu Menu da página?? -->
         <!-- Como travar o Menu qdo "escrolar" pra baixo?? Posição Absoluta -->
-        <div><a class="linkMenu"><img src="Imagens/hambMenu.png" alt="Botão Menu"></a></div>
-        <!-- Como inserir a Barra de Pesquisa -->
-        <div><a class="linkMenu" href="#">Barra de Pesquisa</a></div>
-        <div><a href="#"><img src="Imagens/botaoPesquisa.png" alt="Botão Pesquisar"></a></div>
-        <div><a href="#"><img src="Imagens/botaoPC.png" alt="Botão Computadores"></a><a class="linkMenu"
-            href="#">Computadores, Notebooks e Acessórios</a></div>
-        <div><a href="#"><img src="Imagens/botaoSmartphone.png" alt="Botão Smartphones"></a><a class="linkMenu"
-            href="#">Smartphones e
-            Acessórios</a></div>
-        <div><a href="#"><img src="Imagens/botaoPlaystation.png" alt="Botão Playstations"></a><a class="linkMenu"
-            href="#">Playstations,
-            Jogos e Acessórios</a></div>
-        <div><a href="#"><img src="Imagens/botaoXbox.png" alt="Botão Xboxs"></a><a class="linkMenu" href="#">Xboxs,
-            Jogos e Acessórios</a>
-        </div>
-        <div><a href="#"><img src="Imagens/botaoNintendo.png" alt="Botão Nintendos"></a><a class="linkMenu"
-            href="#">Nintendos, Jogos e
-            Acessórios</a></div>
-        <div><a href="#"><img src="Imagens/botaoOutrosconsoles.png" alt="Botão Outros"></a><a class="linkMenu"
-            href="#">Outros Consoles,
-            Jogos e Acessórios</a></div>
-        <div><a href="#"><img src="Imagens/botaoUsuarioLogin.png" alt="Botão LOG IN"></a><a class="linkMenu"
-            href="#">LOG IN</a></div>
-        <div><a href="#"><img src="Imagens/botaoComprar.png" alt="Botão COMPRAR"></a><a class="linkMenu"
-            href="#">COMPRAR</a></div>
+          <div class="row">  
+            <div class="col-3">
+              <div><a class="linkMenu"><img src="Imagens/hambMenu.png" alt="Botão Menu"></a></div>
+            <!-- Como inserir a Barra de Pesquisa -->
+              <div id="abc"><a class="linkMenu" href="#"><img src="Imagens/barraPesquisa.png" id="barraPesquisa" alt="Barra de Pesquisa"></a></div>
+              <div><a href="#"><img src="Imagens/botaoPesquisa.png" alt="Botão Pesquisar"></a></div>
+            </div>
+            <div class="col-7">
+              <div><a href="#"><img src="Imagens/botaoPC.png" alt="Botão Computadores"></a><a class="linkMenu"
+                href="#"><span>Computadores, Notebooks e Acessórios</span></a></div>
+              <div><a href="#"><img src="Imagens/botaoSmartphone.png" alt="Botão Smartphones"></a><a class="linkMenu"
+                href="#"><span>Smartphones e
+                Acessórios</span></a></div>
+              <div><a href="#"><img src="Imagens/botaoPlaystation.png" alt="Botão Playstations"></a><a class="linkMenu"
+                href="#"><span>Playstations,
+                Jogos e Acessórios</span></a></div> 
+              <div><a href="#"><img src="Imagens/botaoXbox.png" alt="Botão Xboxs"></a><a class="linkMenu" href="#"><span>Xboxs,
+                Jogos e Acessórios</span></a>
+              </div>
+              <div><a href="#"><img src="Imagens/botaoNintendo.png" alt="Botão Nintendos"></a><a class="linkMenu"
+                href="#"><span>Nintendos, Jogos e
+                Acessórios</span></a></div>
+              <div><a href="#"><img src="Imagens/botaoOutrosconsoles.png" alt="Botão Outros"></a><a class="linkMenu"
+                href="#"><span>Outros Consoles,
+                Jogos e Acessórios</span></a></div>
+            </div>
+            <div class="col-2">
+              <div><a href="#"><img src="Imagens/botaoUsuarioLogin.png" alt="Botão LOG IN"></a><a class="linkMenu"
+                href="#"><span>LOG IN</span></a></div>
+              <div><a href="#"><img src="Imagens/botaoComprar.png" alt="Botão COMPRAR"></a><a class="linkMenu"
+                href="#"><span>COMPRAR</span></a></div>
+            </div>
+          </div>
       </nav>
     </div>
   </header>
@@ -179,7 +187,7 @@
   </section>
 
   <section id="Noticias">
-    <a href="#"><img src="Imagens/breakingNews.png" id="logoNoticias" alt="Breaking News"></a>
+    <div id="logoNoticias"><a href="#"><img src="Imagens/breakingNews.png" alt="Breaking News"></a></div>
     <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active"
@@ -298,7 +306,7 @@
 
   <section id="WebGamedoMes">
     <!-- Como colocar algum tipo de aviso para clicar para começar a jogar? -->
-    <img src="Imagens/iconWebGame.png" id="logoWGM" alt="Gridland - Web Game do Mês de Novembro">
+    <div id="logoWGM"><img src="Imagens/iconWebGame.png" alt="Gridland - Web Game do Mês de Novembro"></div>
     <!-- Como colocar uma borda .png no jogo? -->
     <div style="border: 10px solid red">
       <iframe src="http://gridland.doublespeakgames.com/" frameborder="0" style="border: 10px solid silver;"></iframe>
