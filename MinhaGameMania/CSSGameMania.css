@@ -56,10 +56,11 @@ footer {
 }
 
 .carousel-caption {
-    background-color: rgba(192, 192, 192, 0.5);
-    color: blue;
+    background-color: rgba(192, 192, 192, 0.7);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .Menu div a img:not(#barraPesquisa) {
@@ -143,7 +144,7 @@ footer {
     
     .col-7 div, .col-2 div, .col-3 div:not(#abc) {
         display: grid;
-        grid-template-columns: 70px 98px;
+        grid-template-columns: 70px 95px;
     }
     
     #barraPesquisa {
