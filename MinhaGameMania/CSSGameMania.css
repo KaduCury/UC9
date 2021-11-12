@@ -14,6 +14,7 @@ footer {
     color:white;
     font-weight: bold;
     font-size: 200%;
+    margin-top: 100px;
 }
 
 #Promocoes, #Noticias, #WebGamedoMes, #FunnyAnimation {
@@ -51,8 +52,7 @@ footer {
 .funnyGif {
     box-align: center;
     width: 50%;
-    margin-top: 100px;
-    margin-bottom: 100px; 
+    margin-top: 100px; 
 }
 
 .carousel-caption {
@@ -131,8 +131,19 @@ footer {
     flex-direction: row;
 }
 
+#TextoWGM h5 {
+    margin: 3% 10%;
+}
 
-@media screen and (min-width: 1920px) {
+#TextoWGM h2 {
+    margin: 2% 0% 1% 0%;
+}
+
+#FunnyAnimation img{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1360px) {
     
     .Menu div {
         color: white;
