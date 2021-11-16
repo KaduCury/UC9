@@ -1,0 +1,55 @@
+**Salvar nos Favoritos os links dos materiais do Ava
+
+Falta fazer pags:
+	Menu:
+		Barra de Pesquisa
+		Sacola de Compras
+		LogIn
+		*PCs
+		*SmartP
+		*PS
+		*Xbox
+		*Nintendo
+		*Outros
+	BNews(só texto e ajustar mídia):
+		Call of Duty Vanguard 
+		Switch com games clássicos
+		35 anos da Nintendo 
+		
+
+
+UC9-S2
+	OK Atv On 1
+		Fazer a Home e mais 4 págs HTML5(Menu, Banner, Destaque, Novidades, Galeria e Rodapé)
+	OK Enc Pres 1
+		Aplicar CSS3 na Home
+	OK Atv On 2
+		Aplicar CSS3 nas outras páginas
+	!!! Enc Pres 2 !!!
+		!!!!! Aplicar Bootstrap para Responsividade das páginas !!!!!
+	Falta Eventos Enc Pres 3
+		Implementar funcionalidades em JavaScript na Home
+	Falta Eventos Atv On 3
+		Implementar funcionalidades em JavaScript nas outras páginas
+	!!! Enc Pres 4 !!!
+		!!!!! Aplicar o JQuery para responsividade das páginas !!!!!
+	Enc Pres 5
+		Fazer Apresentação no PowerPoint expondo o Resultado Final, !!! Responsividade !!!, 
+		além de destacar as diferenças visuais e de codificação, apresentando também as dificuldades 
+
+UC9-S3
+	Atv On 1
+		Desenvolver nova Home mais 3 páginas com Angular
+	Enc Pres 1
+		Implementar Eventos no site
+	Fórum
+		Compartilhar Estilização/Funcionalidade que foi facilitado pelo Angular e as 
+		Dificuldades de aplicação do Angular e/ou Necessidade de deletar desnecessidades do código 
+	Enc Pres 2
+		Desenvolver uma Segunda Opção de Layout aplicando o Angular
+	Atv On 2
+		Desenvolver a Documantação do sistema. Ver (https://livre.sp.senai.br/mod/assign/view.php?id=8147)
+
+UC10
+
+UC11
