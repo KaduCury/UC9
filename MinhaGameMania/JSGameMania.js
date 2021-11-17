@@ -5,3 +5,5 @@ function tocarMusica(){
 }
 
 $("#CEP").mask("99.999-999");
+
+$("#EMAIL").mask("exemplo@exemplo.com.br")
