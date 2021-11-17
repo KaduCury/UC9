@@ -1,0 +1,9 @@
+#formContato {
+    width: 30vw;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.mat-form-field {
+    width: 99%;
+}

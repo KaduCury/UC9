@@ -1,0 +1,28 @@
+
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <img id="headerLogotipo" src="assets/img/logotipo.png" alt="Logotipo">
+        <span id="headerSpace"></span>
+        <div id="menuDesktop">
+            <a routerLink="home"><button mat-button class="menuButtom">Home</button></a>
+            <a routerLink=""><button mat-button class="menuButtom">Jogos</button></a>
+            <a routerLink=""><button mat-button class="menuButtom">Promoções</button></a>
+            <a routerLink="contato"><button mat-button class="menuButtom">Contatos</button></a>
+        </div>
+        <button mat-icon-button id="menuMobile" (click)="onClickMenuMobile()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-toolbar-row>
+
+</mat-toolbar>
+
+<div id="menuSlide">
+    <nav>
+        <ul>
+            <li><a routerLink="home">Home</a></li>
+            <li><a routerLink="">Jogos</a></li>
+            <li><a routerLink="">Promoções</a></li>
+            <li><a routerLink="contato">Contato</a></li>
+        </ul>
+    </nav>
+</div>
