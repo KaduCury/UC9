@@ -7,3 +7,11 @@ function tocarMusica(){
 $("#CEP").mask("99.999-999");
 
 $("#EMAIL").mask("exemplo@exemplo.com.br")
+
+function alerta(){
+    alert("Seu email foi incluido com sucesso!")
+}
+
+function addSacola(){
+    alert("Seu produto foi incluído na sacola de compras")
+}

@@ -23,43 +23,164 @@
     </div>
     <div class="row">
       <nav class="Menu">
-        <!-- Como inserir o fundo vermelho no meu Menu da página?? -->
         <!-- Como travar o Menu qdo "escrolar" pra baixo?? Posição Absoluta -->
-        <div class="row">
+        <div class="row align-items-center">
+          
           <div class="col-3">
-            <div><a class="linkMenu"><img src="Imagens/hambMenu.png" alt="Botão Menu"></a></div>
-            <!-- Como inserir a Barra de Pesquisa -->
-            <!-- <div id="abc"><a class="linkMenu" href="#"><img src="Imagens/barraPesquisa.png" id="barraPesquisa"
-              alt="Barra de Pesquisa"></a></div> -->
-            <div id="abc" class="linkMenu"><img src="Imagens/barraPesquisa.png" id="barraPesquisa"
-                  alt="Barra de Pesquisa"></div>
-            <div><a href="#"><img src="Imagens/botaoPesquisa.png" alt="Botão Pesquisar"></a></div>
-          </div>
-          <div class="col-7">
-            <div><a href="PC.html"><img src="Imagens/botaoPC.png" alt="Botão Computadores"></a><a class="linkMenu"
-                href="PC.html"><span>Computadores, Notebooks e Acessórios</span></a></div>
-            <div><a href="SPhone.html"><img src="Imagens/botaoSmartphone.png" alt="Botão Smartphones"></a><a class="linkMenu"
-                href="SPhone.html"><span>Smartphones e
-                  Acessórios</span></a></div>
-            <div><a href="PS.html"><img src="Imagens/botaoPlaystation.png" alt="Botão Playstations"></a><a class="linkMenu"
-                href="PS.html"><span>Playstations,
-                  Jogos e Acessórios</span></a></div>
-            <div><a href="Xbox.html"><img src="Imagens/botaoXbox.png" alt="Botão Xboxs"></a><a class="linkMenu"
-                href="Xbox.html"><span>Xboxs,
-                  Jogos e Acessórios</span></a>
+            <div class="d-flex justify-content-start">
+              <div><a id="linkMenu"><img src="Imagens/hambMenu.png" alt="Botão Menu"></a></div>
+                <!-- Como inserir a Barra de Pesquisa -->
+                <!-- <div id="abc"><a class="linkMenu" href="#"><img src="Imagens/barraPesquisa.png" id="barraPesquisa"
+                  alt="Barra de Pesquisa"></a></div> -->
+              <div id="linkMenu" ><input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></div>
+          
+              <div>
+                <a type="submit"><img src="Imagens/botaoPesquisa.png" alt="Botão Pesquisar"></a>
+              </div>
             </div>
-            <div><a href="Nintendo.html"><img src="Imagens/botaoNintendo.png" alt="Botão Nintendos"></a><a class="linkMenu"
-                href="Nintendo.html"><span>Nintendos, Jogos e
-                  Acessórios</span></a></div>
-            <div><a href="Outros.html"><img src="Imagens/botaoOutrosconsoles.png" alt="Botão Outros"></a><a class="linkMenu"
-                href="Outros.html"><span>Outros Consoles,
-                  Jogos e Acessórios</span></a></div>
+            
           </div>
+
+          <div class="col-7 justify-content-start">
+            <div class="d-flex">
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="PC.html" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="Imagens/botaoPC.png" alt="Botão Computadores">
+                  <span>Computadores</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="PC.html">Computadores</a></li>
+                  <li><a class="dropdown-item" href="PC.html">Notebooks</a></li>
+                  <li><a class="dropdown-item" href="PC.html">Periféricos</a></li>
+                  <li><a class="dropdown-item" href="PC.html">Jogos</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="SPhone.html" role="button" 
+                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">                  
+                  <img src="Imagens/botaoSmartphone.png" alt="Botão Smartphones">
+                  <span>Mobiles</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="SPhone.html">Smartphones</a></li>
+                  <li><a class="dropdown-item" href="SPhone.html">Tablets</a></li>
+                  <li><a class="dropdown-item" href="SPhone.html">Acessórios</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="PS.html" role="button" 
+                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="Imagens/botaoPlaystation.png" alt="Botão Playstations">                  
+                  <span>Playstations</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="PS.html">Consoles</a></li>
+                  <li><a class="dropdown-item" href="PS.html">Acessórios</a></li>
+                  <li><a class="dropdown-item" href="PS.html">Jogos</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="Xbox.html" role="button" 
+                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">                  
+                  <img src="Imagens/botaoXbox.png" alt="Botão Xboxs">
+                  <span>Xboxs</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="Xbox.html">Consoles</a></li>
+                  <li><a class="dropdown-item" href="Xbox.html">Acessórios</a></li>
+                  <li><a class="dropdown-item" href="Xbox.html">Jogos</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="Nintendo.html" role="button" 
+                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">                  
+                  <img src="Imagens/botaoNintendo.png" alt="Botão Nintendos">
+                  <span>Nintendos</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="Nintendo.html">Consoles</a></li>
+                  <li><a class="dropdown-item" href="Nintendo.html">Acessórios</a></li>
+                  <li><a class="dropdown-item" href="Nintendo.html">Jogos</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="Outros.html" role="button" 
+                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">                  
+                  <img src="Imagens/botaoOutrosconsoles.png" alt="Botão Outros">
+                  <span>Outros Consoles</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="Outros.html">Consoles</a></li>
+                  <li><a class="dropdown-item" href="Outros.html">Acessórios</a></li>
+                  <li><a class="dropdown-item" href="Outros.html">Jogos</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
           <div class="col-2">
-            <div><a href="Login.html"><img src="Imagens/botaoUsuarioLogin.png" alt="Botão LOG IN"></a><a class="linkMenu"
-                href="Login.html"><span>LOG IN</span></a></div>
-            <div><a href="Carrinho.html"><img src="Imagens/botaoComprar.png" alt="Botão COMPRAR"></a><a class="linkMenu"
-                href="Carrinho.html"><span>COMPRAR</span></a></div>
+            <div class="d-flex justify-content-end">
+
+              <div>
+                <div class="btn-group dropstart">
+                  <button class="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="linkMenu" src="Imagens/botaoUsuarioLogin.png" alt="Botão LOG IN">
+                    LOGIN
+                  </button>
+                    <div class="dropdown-menu">
+                      <form class="px-4 py-3">
+                        <div class="mb-3">
+                            <label for="exampleDropdownFormEmail1" class="form-label"><span style="color: #01003f">Email</span></label>
+                          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="mail@exemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleDropdownFormPassword1" class="form-label"><span style="color: #01003f">Senha</span></label>
+                          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+                        </div>
+                        <div class="mb-3">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                              <label class="form-check-label" for="dropdownCheck" style="color: #01003f">Lembre de mim</label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                      </form>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="Login.html" style="color: #01003f">Clique aqui para cadastrar</a>
+                      <a class="dropdown-item" href="#" style="color: #01003f">Esqueceu a senha?</a>
+                    </div>
+      
+                </div>
+              </div>
+              
+              <div>
+                <button type="button" class="btn btn-primary position-relative" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                  <img id="linkMenu" src="Imagens/botaoComprar.png" alt="Botão COMPRAR">
+                    <span class="position-absolute top-0 start-1 translate-middle badge rounded-pill" style="background-color: gold; color: gray;">
+                      1
+                      <span class="visually-hidden">ítens no carrinho</span>
+                    </span>
+                  COMPRAR  
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    ...
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </nav>
@@ -146,8 +267,8 @@
         <h3 align="center" style="color: red; align: right"><b>Insira seu email para saber mais sobre notícias e promoções do mundo gamer:</b></h3>
       </div>  
       <div class="col-2">  
-        <input type="email" name="EMAIL" id="EMAIL">
-        <input type="submit" id="btn-enviar" name="btn-enviar" required>
+        <input type="email" name="EMAIL" id="EMAIL" placeholder="mail@exemplo.com">
+        <input type="button" class="btn btn-primary" id="liveAlertBtn" onclick="alerta()" value="Enviar">
       </div>  
       <div class="col-2"></div>
     </div>

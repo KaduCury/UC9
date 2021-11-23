@@ -29,14 +29,13 @@ footer {
 }
 
 .Menu {
-    display: flex;
     flex-direction: row;
     column-gap: 5px;
     flex-wrap: wrap;
 }
 
 
-.Menu .linkMenu {
+#linkMenu {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -63,12 +62,10 @@ footer {
     text-decoration: none;
 }
 
-.Menu div a img:not(#barraPesquisa) {
-    width: 60px;
-}
 
 .row {
     text-align: center;
+    --bs-gutter-x: 0rem;;
 }
 
 #WebGamedoMes div:not(#logoWGM) {
@@ -126,11 +123,6 @@ footer {
     padding: 5px;
 }
 
-.col-7, .col-2, .col-3 {
-    display: flex;
-    flex-direction: row;
-}
-
 #TextoWGM h5 {
     margin: 3% 10%;
 }
@@ -143,6 +135,44 @@ footer {
     cursor: pointer;
 }
 
+.btn-secondary {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.position-relative {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+    box-shadow: 0 0 0 0rem rgb(130 138 145 / 0%);
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+    box-shadow: 0 0 0 0rem rgb(130 138 145 / 0%);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0.92);
+    border-color: rgba(255, 54, 54, 0.92);
+}
+
 @media screen and (min-width: 1360px) {
     
     .Menu div {
@@ -151,15 +181,5 @@ footer {
     
     .Menu a span {
         display: inline;
-    }
-    
-    .col-7 div, .col-2 div, .col-3 div:not(#abc) {
-        display: grid;
-        grid-template-columns: 70px 95px;
-    }
-    
-    #barraPesquisa {
-        width: 100%;
-        height: 100%;
     }
 }
