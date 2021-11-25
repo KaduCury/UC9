@@ -44,9 +44,6 @@ footer {
 .Menu a span {
     display: none;
 }
-.imgFooter {
-    float: right;
-}
 
 .funnyGif {
     box-align: center;
@@ -112,7 +109,33 @@ footer {
 }
 
 #Rodape p {
-    float: left;
+    text-align: left;
+}
+
+.imgFooter {
+    float: right;
+}
+
+.btn-secondaryFooter:hover {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+.btn-secondaryFooter:focus {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+.btn-secondaryFooter {
+    color: #fff;
+    background-color: rgba(255, 54, 54, 0);
+    border-color: rgba(255, 54, 54, 0);
+}
+
+#desenvolvido {
+    float: right
 }
 
 .Menu {
@@ -172,6 +195,14 @@ footer {
     background-color: rgba(255, 54, 54, 0.92);
     border-color: rgba(255, 54, 54, 0.92);
 }
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
 
 @media screen and (min-width: 1360px) {
     

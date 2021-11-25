@@ -187,95 +187,182 @@
     </div>
   </header>
 
-  <h1 style="color: white"> Login! </h1>
+  <h2 style="color: white; text-align: center; margin: 2%;"> Seja muito bem vindo gamer! </h2>
+  <h1 style="color: white; text-align: center; margin-bottom: 3%;"> Faça seu cadastro aqui </h1>
 
-  <form class="row g-3">
-    <div class="col-md-4">
-      <label for="validationServer01" class="form-label">First name</label>
-      <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-4">
-      <label for="validationServer02" class="form-label">Last name</label>
-      <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-    </div>
-    <div class="col-md-4">
-      <label for="validationServerUsername" class="form-label">Username</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend3">@</span>
-        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-        <div id="validationServerUsernameFeedback" class="invalid-feedback">
-          Please choose a username.
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+      <form class="row g-3" style="background-color: silver;">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <label for="validationServer01" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Marcus Otto" required>
+          <div class="valid-feedback">
+            OK!
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <label for="validationServer03" class="form-label">City</label>
-      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-      <div id="validationServer03Feedback" class="invalid-feedback">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="col-md-3">
-      <label for="validationServer04" class="form-label">State</label>
-      <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-        <option selected disabled value="">Choose...</option>
-        <option>...</option>
-      </select>
-      <div id="validationServer04Feedback" class="invalid-feedback">
-        Please select a valid state.
-      </div>
-    </div>
-    <div class="col-md-3">
-      <label for="validationServer05" class="form-label">Zip</label>
-      <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
-      <div id="validationServer05Feedback" class="invalid-feedback">
-        Please provide a valid zip.
-      </div>
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
-        <label class="form-check-label" for="invalidCheck3">
-          Agree to terms and conditions
-        </label>
-        <div id="invalidCheck3Feedback" class="invalid-feedback">
-          You must agree before submitting.
+        <div class="col-md-3">
+          <label for="validationServer02" class="form-label">Username(Apelido)</label>
+          <input type="text" class="form-control is-valid" id="validationServer02" placeholder="MarkOtto" required>
+          <div class="valid-feedback">
+            OK!
+          </div>
         </div>
-      </div>
+        <div class="col-md-4">
+          <label for="validationServerUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+            <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required placeholder="mail@exemplo.com">
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Insira seu Email.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <label for="validationServer03" class="form-label">Cidade</label>
+          <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+          <div id="validationServer03Feedback" class="invalid-feedback">
+            Insira sua Cidade.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationServer04" class="form-label">Estado</label>
+          <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+            <option selected disabled value="">Escolha...</option>
+            <option>Fora do Brasil</option>
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>
+            <option>Ceará</option>
+            <option>Distrito Federal</option>
+            <option>Espírito Santo</option>
+            <option>Goiás</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Roraima</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Sergipe</option>
+            <option>Tocantins</option>
+          </select>
+          <div id="validationServer04Feedback" class="invalid-feedback">
+            Selecione seu Estado.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationServer05" class="form-label">CEP</label>
+          <input id="CEP" type="text" class="form-control is-invalid" maxlength="10" aria-describedby="validationServer05Feedback" required>
+          <div id="validationServer05Feedback" class="invalid-feedback">
+            Insira seu CEP.
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-4"></div>
+        <div class="col">
+          <div class="form-check">
+            <input style="text-align: end;" class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Concordo com os termos e condições.
+            </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback">
+              Você precisa aceitar os termos e condições para prosseguir.
+            </div>
+          </div>
+        </div>
+        <div class="col-4"></div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Cadastrar</button>
+        </div>
+      </form>
     </div>
-    <div class="col-12">
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </div>
-  </form>
+    <div class="col-1"></div>  
+  </div>
 
   <footer>
     <section id="Rodape">
-      <p>Telefone: (XX)XXXXX-XXXX<br>
-        Endereço: Rua X, nºXXX, XXXX/XX</p>
-      <div class="imgFooter"><a
-          href="https://www.google.com/maps/dir//jaragua+do+sul+-+Av.+Get%C3%BAlio+Vargas,+268+-+Centro,+Jaragu%C3%A1+do+Sul+-+SC,+89251-000/@-26.4795646,-49.0878085,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94de9455eb378159:0x964a1c9f660f4c6!2m2!1d-49.0856198!2d-26.4795646"><img
-            src="Imagens/iconMaps.png" alt="Abrir Localização no Mapas"></a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=5514988124334&text=Ol%C3%A1!%20Estou%20entrando%20em%20contato%20para%20&app_absent=0">
-          <img src="Imagens/iconWhatsapp.png" alt="Whatsapp Link"></a>
-        <a href="https://www.facebook.com/GamemaniaVG"><img src="Imagens/iconFacebook.png" alt="Facebook Link"></a>
-        <a href="https://www.instagram.com/lojasgamemania/?hl=pt"><img src="Imagens/iconInsta.png"
-            alt="Instagram Link"></a>
-        <a href="https://www.youtube.com/c/gamemaniabrasil"><img src="Imagens/iconYoutube.png" alt="YouTube Link"></a>
-        <a href="mailto:gamemania@gamemania.com"><img src="Imagens/iconMail.png" alt="Email Link"></a>
+      
+      <div class="row">
+
+        <div class="col-4">
+          <p>Telefone: (XX)XXXXX-XXXX<br>
+            Endereço: Rua X, nºXXX, XXXX/XX</p>
+        </div>
+
+        <div class="col-3">
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+              Mapa do Site:
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Login.html">CADASTRO</a></li>
+                <li><a class="dropdown-item" href="Carrinho.html">COMPRAR</a></li>
+                <li><a class="dropdown-item" href="hotDeal.html">PROMOÇÕES</a></li>
+                <li><a class="dropdown-item" href="breakingNews.html">NOTÍCIAS</a></li>
+                <li><a class="dropdown-item" href="WGM.html">WEB GAME DO MÊS</a></li>
+            </ul>
+          </div>  
+        
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu Loja:
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="PC.html">COMPUTADORES</a></li>
+                <li><a class="dropdown-item" href="SPhone.html">SMARTPHONES</a></li>
+                <li><a class="dropdown-item" href="PS.html">PLAYSTATIONS</a></li>
+                <li><a class="dropdown-item" href="Xbox.html">XBOXS</a></li>
+                <li><a class="dropdown-item" href="Nintendo.html">NINTENDOS</a></li>
+                <li><a class="dropdown-item" href="Outros.html">OUTROS CONSOLES</a></li>
+            </ul>
+          </div>  
+        </div>        
+
+        <div class="col-5">
+          <div class="imgFooter">
+            <a href="https://www.google.com/maps/dir//jaragua+do+sul+-+Av.+Get%C3%BAlio+Vargas,+268+-+Centro,+Jaragu%C3%A1+do+Sul+-+SC,
+                +89251-000/@-26.4795646,-49.0878085,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94de9455eb378159:0x964a1c9f660f4c6!2m2!1d-49.
+              0856198!2d-26.4795646" target="_blank"><img src="Imagens/iconMaps.png" alt="Abrir Localização no Mapas" ></a>
+            <a href="https://api.whatsapp.com/send/?phone=5514988124334&text=Ol%C3%A1!%20Estou%20entrando%20em%20
+              contato%20para%20&app_absent=0" target="_blank"><img src="Imagens/iconWhatsapp.png" alt="Whatsapp Link"></a>
+            <a href="https://www.facebook.com/GamemaniaVG" target="_blank"><img src="Imagens/iconFacebook.png" alt="Facebook Link"></a>
+            <a href="https://www.instagram.com/lojasgamemania/?hl=pt" target="_blank"><img src="Imagens/iconInsta.png"
+                alt="Instagram Link"></a>
+            <a href="https://www.youtube.com/c/gamemaniabrasil" target="_blank"><img src="Imagens/iconYoutube.png" alt="YouTube Link"></a>
+            <a href="mailto:gamemania@gamemania.com" target="_blank"><img src="Imagens/iconMail.png" alt="Email Link"></a>
+          </div>  
+        </div>
+      
       </div>
+
+      <div class="row">
+        <div class="col">
+          <div id="desenvolvido">Desenvolvido por <span>Kadu Cury</span></div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+
     </section>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="jquery-v3.6.0.min.js"></script>
+  <script type="text/javascript" src="jquery.maskedinput-1.1.4.pack.js"></script>
+  <script src="JSGameMania.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="jquery-v3.6.0.min.js"></script>
-<script src="JSGameMania.js"></script>
-
 </html>
