@@ -41,7 +41,7 @@ footer {
     font-weight: bold;
     font-size: 12px;
 }
-.Menu a span {
+.Menu a span, .menuSpan {
     display: none;
 }
 
@@ -204,13 +204,53 @@ footer {
     user-select: none;
   }
 
-@media screen and (min-width: 1360px) {
-    
+@media screen and (max-width: 759px) {
+    #btnLoja, #btnMapa{
+        width: 100px;
+        height: 12px;
+        font-size: 15px;
+    }
+    #colFooter, #colBtnFooterMap {
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    #dropdownMenuLink.btn.btn-secondary.dropdown-toggle::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .imgFoo img{
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 1529px) and (min-width: 1200px) {
+    .imgFoo img{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1529px) {
+    #desenvolvido, #telend{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1860px) {
     .Menu div {
         color: white;
     }    
     
-    .Menu a span {
+    .Menu a span, .menuSpan {
         display: inline;
     }
 }

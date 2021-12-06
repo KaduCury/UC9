@@ -18,9 +18,9 @@
 <body>
   <header>
     <div class="row">
-      <div class="col-4"><a href="GameMania.html"><img src="Imagens/badBowser Esq.png" class="badBowser" alt="Símbolo GameMania"></a></div>
-      <div class="col-4"><a href="GameMania.html"><img class="bigLogo" src="Imagens/bigLogo.png" alt="Logotipo GameMania"></a></div>
-      <div class="col-4"><a href="GameMania.html"><img src="Imagens/badBowser Dir.png" class="badBowser" alt="Símbolo GameMania"></a></div>
+      <div class="col"><a href="GameMania.html"><img src="Imagens/badBowser Esq.png" class="badBowser" alt="Símbolo GameMania"></a></div>
+      <div class="col"><a href="GameMania.html"><img class="bigLogo" src="Imagens/bigLogo.png" alt="Logotipo GameMania"></a></div>
+      <div class="col"><a href="GameMania.html"><img src="Imagens/badBowser Dir.png" class="badBowser" alt="Símbolo GameMania"></a></div>
     </div>
     
       <nav class="Menu">
@@ -133,7 +133,7 @@
                 <div class="btn-group dropstart">
                   <button class="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">
                     <img id="linkMenu" src="Imagens/botaoUsuarioLogin.png" alt="Botão LOG IN">
-                    LOGIN
+                    <span class="menuSpan">LOGIN</span>
                   </button>
                     <div class="dropdown-menu">
                       <form class="px-4 py-3">
@@ -168,7 +168,7 @@
                       1
                       <span class="visually-hidden">ítens no carrinho</span>
                     </span>
-                  COMPRAR  
+                  <span class="menuSpan">COMPRAR</span>  
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                   <div class="offcanvas-header">
@@ -515,16 +515,16 @@
   <footer>
     <section id="Rodape">
       
-      <div class="row">
+      <div id="colFooter" class="row">
 
         <div class="col-4">
-          <p>Telefone: (XX)XXXXX-XXXX<br>
+          <p id="telend">Telefone: (XX)XXXXX-XXXX<br>
             Endereço: Rua X, nºXXX, XXXX/XX</p>
         </div>
 
-        <div class="col-3">
+        <div id="colBtnFooterMap" class="col-3">
           <div class="btn-group dropup">
-            <button type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+            <button id="btnMapa" type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
               Mapa do Site:
             </button>
             <ul class="dropdown-menu">
@@ -537,7 +537,7 @@
           </div>  
         
           <div class="btn-group dropup">
-            <button type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+            <button id="btnLoja" type="button" class="btn btn-secondaryFooter dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
               Menu Loja:
             </button>
             <ul class="dropdown-menu">
@@ -553,16 +553,16 @@
 
         <div class="col-5">
           <div class="imgFooter">
-            <a href="https://www.google.com/maps/dir//jaragua+do+sul+-+Av.+Get%C3%BAlio+Vargas,+268+-+Centro,+Jaragu%C3%A1+do+Sul+-+SC,
+            <a class="imgFoo" href="https://www.google.com/maps/dir//jaragua+do+sul+-+Av.+Get%C3%BAlio+Vargas,+268+-+Centro,+Jaragu%C3%A1+do+Sul+-+SC,
                 +89251-000/@-26.4795646,-49.0878085,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94de9455eb378159:0x964a1c9f660f4c6!2m2!1d-49.
               0856198!2d-26.4795646" target="_blank"><img src="Imagens/iconMaps.png" alt="Abrir Localização no Mapas" ></a>
-            <a href="https://api.whatsapp.com/send/?phone=5514988124334&text=Ol%C3%A1!%20Estou%20entrando%20em%20
+            <a class="imgFoo" href="https://api.whatsapp.com/send/?phone=5514988124334&text=Ol%C3%A1!%20Estou%20entrando%20em%20
               contato%20para%20&app_absent=0" target="_blank"><img src="Imagens/iconWhatsapp.png" alt="Whatsapp Link"></a>
-            <a href="https://www.facebook.com/GamemaniaVG" target="_blank"><img src="Imagens/iconFacebook.png" alt="Facebook Link"></a>
-            <a href="https://www.instagram.com/lojasgamemania/?hl=pt" target="_blank"><img src="Imagens/iconInsta.png"
+            <a class="imgFoo" href="https://www.facebook.com/GamemaniaVG" target="_blank"><img src="Imagens/iconFacebook.png" alt="Facebook Link"></a>
+            <a class="imgFoo" href="https://www.instagram.com/lojasgamemania/?hl=pt" target="_blank"><img src="Imagens/iconInsta.png"
                 alt="Instagram Link"></a>
-            <a href="https://www.youtube.com/c/gamemaniabrasil" target="_blank"><img src="Imagens/iconYoutube.png" alt="YouTube Link"></a>
-            <a href="mailto:gamemania@gamemania.com" target="_blank"><img src="Imagens/iconMail.png" alt="Email Link"></a>
+            <a class="imgFoo" href="https://www.youtube.com/c/gamemaniabrasil" target="_blank"><img src="Imagens/iconYoutube.png" alt="YouTube Link"></a>
+            <a class="imgFoo" href="mailto:gamemania@gamemania.com" target="_blank"><img src="Imagens/iconMail.png" alt="Email Link"></a>
           </div>  
         </div>
       
