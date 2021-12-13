@@ -215,9 +215,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 869px) {
+@media screen and (max-width: 854px) {
     nav {
         display: none;
+    }
+
+    .badBowser, .bigLogo {
+        height: 70%;
     }
 }
 
@@ -245,11 +249,21 @@ footer {
     }
 }
 
-@media screen and (min-width: 1860px) {
+@media screen and (max-width: 1859px) and (min-width: 1604px){
     .Menu div {
         color: white;
     }    
     
+    .Menu a span, .menuSpan {
+        display: inline;
+    }
+
+    #dropdownMenuLink.btn.btn-secondary.dropdown-toggle::after{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1860px) {
     .Menu a span, .menuSpan {
         display: inline;
     }
