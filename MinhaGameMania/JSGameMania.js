@@ -1,3 +1,7 @@
+function avisoPagDeEstudos(){
+  alert("Esta é uma página feita para finalidade de Estudos! Não se trata de uma loja de verdade!");
+}
+
 function tocarMusica(){
     var audio1 = new Audio();
     audio1.src = "Imagens/rollingChair.wav";
