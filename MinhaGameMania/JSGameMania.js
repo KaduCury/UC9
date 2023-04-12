@@ -1,5 +1,5 @@
 function avisoPagDeEstudos(){
-  alert("Esta é uma página feita para finalidade de Estudos! Não se trata de uma loja de verdade!");
+  alert("Esta é uma página feita para finalidade de Estudos!" + "\n" + "Não se trata de uma loja de verdade!" + "\n" + "Obrigado!");
 }
 
 function tocarMusica(){
